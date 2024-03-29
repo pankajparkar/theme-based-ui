@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "theme-based-ui:build:production"
+              "buildTarget": "theme-based-ui:build:production"
             },
             "development": {
-              "browserTarget": "theme-based-ui:build:development"
+              "buildTarget": "theme-based-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "theme-based-ui:build"
+            "buildTarget": "theme-based-ui:build"
           }
         },
         "test": {
