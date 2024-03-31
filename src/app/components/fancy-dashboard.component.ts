@@ -3,7 +3,7 @@ import { MatButton } from '@angular/material/button';
 import { MatCard, MatCardActions, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle } from '@angular/material/card';
 
 @Component({
-  selector: 'tbui-dashboard',
+  selector: 'tbui-fancy-dashboard',
   standalone: true,
   imports: [
     MatCard,
@@ -14,9 +14,9 @@ import { MatCard, MatCardActions, MatCardContent, MatCardHeader, MatCardSubtitle
     MatCardActions,
     MatButton,
   ],
-  templateUrl: './dashboard.component.html',
+  templateUrl: './fancy-dashboard.component.html',
   styles: ``,
 })
-export class DashboardComponent {
+export class FancyDashboardComponent {
 
 }
